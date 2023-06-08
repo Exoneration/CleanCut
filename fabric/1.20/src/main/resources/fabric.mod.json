@@ -8,9 +8,9 @@
 		"Rongmario"
 	],
 	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/cleancut",
-		"sources": "https://github.com/Rongmario/CleanCut",
-		"issues": "https://github.com/Rongmario/CleanCut/issues"
+		"homepage": "https://modrinth.com/mod/cleancut",
+		"sources": "https://github.com/Exoneration/CleanCut",
+		"issues": "https://github.com/Exoneration/CleanCut/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/cleancut/icon.png",
