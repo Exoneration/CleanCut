@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"refmap": "cleancut.refmap.json",
+	"package": "zone.rong.cleancut.mixin",
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"mixins": [
+      "MinecraftMixin"
+	]
+}

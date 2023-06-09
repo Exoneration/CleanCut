@@ -1,9 +1,6 @@
 pluginManagement {
     repositories {
-        maven {
-            name = 'Fabric'
-            url = 'https://maven.fabricmc.net/'
-        }
+        gradlePluginPortal()
         maven {
             name = 'MinecraftForge'
             url = 'https://maven.minecraftforge.net/'
@@ -12,20 +9,9 @@ pluginManagement {
             name = 'SpongePowered'
             url = 'https://repo.spongepowered.org/repository/maven-public/'
         }
-        mavenCentral()
-        gradlePluginPortal()
     }
 }
-
 
 plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '0.5.0'
 }
-
-include ':forge_1.20', 'fabric_1.20'
-
-project(':forge_1.20').projectDir = file('forge/1.20')
-project(':fabric_1.20').projectDir = file('fabric/1.20')
-
-rootProject.name = 'CleanCut'
-
